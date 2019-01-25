@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    font-size: 25px;
+    color: #fff;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 31px;
+    
+    position: relative;
+}

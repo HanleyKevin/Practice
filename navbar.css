@@ -46,3 +46,29 @@ nav li{
     
     position: relative;
 }
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav a::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    
+    position: absolute;
+    top: 50px;
+    width: 0%;
+    transition: all ease-in-out 0.25s;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
